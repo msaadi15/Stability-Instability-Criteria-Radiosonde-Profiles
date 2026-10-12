@@ -129,6 +129,32 @@ For a layer with environmental lapse rate γ = −∂T/∂z, compared with the d
 A positive CAPE with a reachable LFC indicates latent (convective) instability;
 a large CIN means the parcel needs strong forcing to reach its LFC.
 
+## Results
+
+### Example profiles (Skew-T)
+
+Temperature (red), dew point (green) and surface-based parcel path (dashed)
+for three of the example soundings. Shaded areas are CAPE (red) and CIN (blue).
+
+![Skew-T diagrams of Boa Vista, Brasília and Goose Bay](images/skewt_panels.png)
+
+### Layer-by-layer classification
+
+Each layer between two consecutive levels is classified from the environmental
+lapse rate compared with the dry and saturated adiabatic lapse rates. The
+column below shows the result for each station, with the LCL, LFC and EL marked.
+
+![Stability classification of each layer](images/stability_layers.png)
+
+| Station | Profile | Classification |
+|---|---|---|
+| Boa Vista (82022) | Warm, moist tropical column; CAPE present | Alternating selective and latent convective instability between 1000 and 319 hPa; absolutely stable above |
+| Brasília (83378) | Moist low levels, capped by CIN (−133 J/kg), CAPE 134 J/kg | Latent convective instability at 880–768 hPa and 700–593 hPa; absolutely stable elsewhere |
+| Goose Bay (71816) | Cold, dry winter profile; no CAPE | Mostly absolutely stable; thin absolutely unstable layer at 925–886 hPa and a negligible dry-unstable layer near 285 hPa |
+
+Classes used: absolute stability, selective convective instability, latent
+(conditional) convective instability, absolute instability and dry instability.
+
 ## Data source
 
 Soundings from the University of Wyoming, Department of Atmospheric Science —
