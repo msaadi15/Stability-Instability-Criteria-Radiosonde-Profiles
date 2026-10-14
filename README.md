@@ -158,4 +158,4 @@ Classes used: absolute stability, selective convective instability, latent
 ## Data source
 
 Soundings from the University of Wyoming, Department of Atmospheric Science —
-<https://weather.uwyo.edu/upperair/sounding.html>.
+<https://weather.uwyo.edu/upperair/sounding.shtml>.
